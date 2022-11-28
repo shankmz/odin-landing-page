@@ -71,8 +71,6 @@ a {
 
 .body-two {
     display: flex;
-    
-    
     justify-content: center;
     border: 2px solid black;
     
@@ -90,3 +88,13 @@ a {
     border: 2px solid black;
     justify-content: flex-end;
 }
+
+/* start action-call */
+
+.action-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* start footer */
