@@ -98,3 +98,8 @@ a {
 }
 
 /* start footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
