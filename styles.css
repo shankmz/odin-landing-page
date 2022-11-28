@@ -1,5 +1,40 @@
 .header {
     display: flex;
-    ;
+    flex-direction: column;
+    
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.head-text {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.head-container {
+    display: flex;
     justify-content: space-between;
+}
+
+.lower-container {
+    display: flex;
+    flex-direction: column;
+    
 }
