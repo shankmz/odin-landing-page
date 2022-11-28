@@ -48,8 +48,7 @@ a {
 }
 
 .card {
-    display: fle;
-    flex-wrap: wra;
+    
     border: 2px solid blue;
     border-radius: 25px;
     padding: 16px;
@@ -66,4 +65,28 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* start body-two */
+
+.body-two {
+    display: flex;
+    
+    
+    justify-content: center;
+    border: 2px solid black;
+    
+}
+
+.two-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    max-width: fit-content;
+}
+
+.quote-owner {
+    display: flex;
+    border: 2px solid black;
+    justify-content: flex-end;
 }
