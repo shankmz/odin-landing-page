@@ -38,3 +38,32 @@ a {
     flex-direction: column;
     
 }
+
+/* start of body-one */
+
+.body-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: fle;
+    flex-wrap: wra;
+    border: 2px solid blue;
+    border-radius: 25px;
+    padding: 16px;
+    margin: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+.one-container {
+    display: flex;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
