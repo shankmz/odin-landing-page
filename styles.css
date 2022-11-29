@@ -14,6 +14,9 @@ img {
 ul {
     display: flex;
     list-style: none;
+    gap: 25px;
+    padding: 10px;
+    margin: 10px;
     
 }
 
@@ -28,6 +31,7 @@ a {
     justify-content: space-around;
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 150px;
 }
 
 h1 {
@@ -44,6 +48,11 @@ h1 {
 .lower-container {
     display: flex;
     flex-direction: column;
+}
+
+.img-box {
+    background-color: #e5e7eb;
+    width: 400px;
 }
 
 button {
@@ -92,21 +101,25 @@ h2 {
 .body-two {
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 300px;
+    font-size: 36px;
+    color: #1f2937;
     
 }
 
 .two-container {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    
     max-width: fit-content;
     
 }
 
 .quote-owner {
     display: flex;
-    border: 2px solid black;
+    
     justify-content: flex-end;
 }
 
@@ -128,6 +141,12 @@ h2 {
     width: 60%;
     height: auto;
     border-radius: 25px;
+    color: #f9faf8;
+}
+
+.action-button  {
+    color: #f9faf8;
+    border-color: #f9faf8;
 }
 
 /* start footer */
@@ -136,4 +155,5 @@ h2 {
     display: flex;
     justify-content: center;
     background-color: #1f2937;
+    color: #e5e7eb;
 }
